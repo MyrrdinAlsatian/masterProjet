@@ -54,13 +54,13 @@
 ```
 
 ``` HTML
-     <nav id="navigation" role="navigation"> 
+     <nav id="navigation" role="navigation">
           navigation principale
      </nav>
 ```
 
 ```HTML
-    <form id="search" role="search"> 
+    <form id="search" role="search">
          recherche principale
     </form>
 ````
