@@ -2,7 +2,6 @@
 
 > petit essai collaboratif
 
-
 ## liens utiles
 
 ## Source
