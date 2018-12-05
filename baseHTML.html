@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Accueil - yourProject</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <meta name="description" content="Description de yourProject">
+    <meta name="keywords" content="yourProject, yourProject">
+
+    <!-- Feuille(s) de style CSS -->
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+
+<body class="page-home">
+
+    <!-- 
+
+    <div id="wrapper"> : sous-conteneur optionnel. Par exemple si body ne suffit pas
+    <div class="inner"> : sous-conteneur optionnel. Par exemple pour centrer plusieurs blocs de la même manière
+    <main id="main" role="main"> : conteneur général du contenu principal, typiquement ce qui n'est pas dans header
+            et footer
+    <header id="header" role="banner"> : entête global, comportant souvent la navigation et des éléments qui se
+        retrouvent en commun sur (quasiment) toutes les pages, On peut trouver plusieurs balises header, mais le role="banner
+        doit être unique dans la page
+    <footer id="footer" role="contentinfo"> : pied de page global comportant des éléments qui se retrouvent
+    en commun sur (quasiment) toutes les pages On peut trouver plusieurs balises footer, mais le role="contentinfo" doit
+    être unique dans la page.
+    <aside class="aside" role="complementary"> : barre latérale globale. Note : <aside> doit pouvoir être extrait de la page sans poser de problème,
+         en clair ne pas y placer la navigation par exemple.
+    <nav id="navigation" role="navigation"> : navigation principale
+    <form id="search" role="search"> : recherche principale
+
+     -->
+    <!-- Header -->
+    <header role="banner" id="header">
+
+
+        <!-- Base pour l'accessibilité -->
+        <div class="skip-links">
+            <!-- N’utilisez surtout pas de propriétés CSS qui les rendent inactifs ou les attributs hidden et aria-hidden 
+            sinon plus visible pour les lecteurs
+        -->
+            <a href="#navigation" tabindex="1">Aller au menu</a>
+            <a href="#main">Aller au contenu</a>
+            <a href="#search">Aller à la recherche</a>
+        </div>
+        <nav role="navigation" aria-label="description de l'élément (ex:Menu principal,...">
+            <!-- utiliser emmet -->
+
+            ul>(li>a)*
+        </nav>
+
+    </header>
+
+    <main class="site-main" role="main" id="main">
+
+        <div class="wrapper">
+
+            <!-- Contenu du main -->
+
+            <aside class="page-aside" role="complementary">
+                <!-- Contenu de l'aside -->
+            </aside>
+        </div><!-- /.site-wrapper -->
+    </main>
+
+    <footer role="contentinfo" class="footer" id="footer">
+
+        <!-- Contenu du footer -->
+
+
+        <!-- Copyright -->
+        <div class="">
+            <div class="">
+                <p class="">© yourProject</p>
+            </div>
+        </div>
+
+        <!-- Back to top -->
+        <a href="#header" class="" title="Retourner en haut de la page">
+            <i class="icon-arrow-up" aria-hidden="true"></i>
+            <span class="">Retour<br>en haut</span>
+        </a>
+
+        <nav role="navigation" id="footer-navigation">
+            <!-- utiliser emmet -->
+            ul>(li>a)*
+        </nav>
+    </footer>
+<p>
+    <a href="https://github.com/alsacreations/guidelines/blob/master/Ressources-liens.md">Ressources-liens</a>
+</p>
+    <!-- Script -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,91 @@
+/* Reset */
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+    /* TODO:Better practice*/
+}
+
+/***/
+html {
+    font-size: 62.5%;
+    /*
+    HACK:
+    font-size par defaut est de 16px (dans la pluspart des navigateurs) donc si taille par defaut(16px) * 62.5% = 10px, 
+    else si taille à été modifié permet de conserver les préférences de l'utilisateurs et changer l'apparence en conséquence
+    */
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+body {
+    box-sizing: border-box;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* pour le dev à supprimer TODO: */
+
+*{
+    outline: red solid 1px;
+}
+
+
+.skip-links {
+    position: absolute;
+}
+
+.skip-links a {
+    position: absolute;
+    left: -9999px;
+    padding: 0.5em;
+    background: #000;
+    color: #fff;
+    text-decoration: none;
+}
+
+.skip-links a:focus {
+    position: static;
+}
+.visually-hidden {
+    position: absolute !important;
+    border: 0 !important;
+    height: 1px !important;
+    width: 1px !important;
+    padding: 0 !important;
+    overflow: hidden !important;
+    clip: rect(0, 0, 0, 0) !important;
+}
+/**
+ * 1. centrer le contenue. Optionel.
+ * 2. Max width mieux que width permet d'avoir des block plus petit
+ * 3. permet d'avoir un petit padding sur le contenaire évite que le contenu soit coller au bord de l'ecran
+ */
+.wrapper {
+    margin: 0 auto; /* 1 */
+
+    /* pour un wrapper de 980px */
+    max-width: 960px; /* 2 */
+
+    padding-right: 10px; /* 3 */
+    padding-left: 10px; /* 3 */
+}
+
+.animation{
+    /* pour les animations utiliser uniquement les propriétés  */
+    filter: grayscale();
+    opacity: 0;
+    transform: rotate3d() ;
+    /* pour des raisons de preformance */
+    /* pour fluidifier les animations possibiliter d'activer la carte graphique */
+    perspective: 1px; /* HACK: css */
+    /* ou utiliser les attributs X,Y,Z */
+}
