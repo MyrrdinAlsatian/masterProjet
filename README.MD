@@ -6,6 +6,8 @@
 
 - Avant de :running: :ocean: :sweat_drops: :swimmer: dans le code.
 
+- Etape 1:  :eyes: :computer: (regarder la maquette)  :scissors:  :pencil: (découper la maquette ).
+
 ## HTML
 
 ### Petite explication
