@@ -13,22 +13,30 @@
 ### Petite explication
 
 ``` HTML
-    <div id="wrapper"> : sous-conteneur optionnel pour centrer plusieurs blocs de la même manière
+    <div id="wrapper">
+        sous-conteneur optionnel pour centrer plusieurs blocs de la même manière
     </div>
 ```
 
 ``` HTML
-    <div class="inner"> : sous-conteneur optionnel à le meme rôle que le wrapper
+    <div class="inner"> 
+        sous-conteneur optionnel à le meme rôle que le wrapper
     </div>
 ```
 
 ``` HTML
-    <main id="main" role="main"> : conteneur général du contenu principal, typiquement ce qui n'est pas dans le header et le footer
+    <main id="main" role="main">
+        conteneur général du contenu principal, typiquement ce qui n'est pas dans le
+        header et le footer
     </main>
 ```
 
 ``` HTML
-    <header id="header" role="banner"> : entête global, comportant souvent la navigation et des éléments qui se retrouvent en commun sur (quasiment) toutes les pages, On peut trouver plusieurs balises header, mais le role="banner doit être unique dans la page
+    <header id="header" role="banner">
+        Entête global, comportant souvent la navigation et des éléments qui se
+         retrouvent en commun sur (quasiment) toutes les pages,
+          On peut trouver plusieurs balises header,
+           mais le role="banner doit être unique dans la page
     </header>
 ```
 
@@ -37,17 +45,21 @@
 ```
 
 ``` HTML
-     <aside class="aside" role="complementary"> : barre latérale globale. Note : doit pouvoir être extrait de la page sans poser de problème, en clair ne pas y placer la navigation par exemple.
-         </aside>
+     <aside class="aside" role="complementary"> : barre latérale globale.
+          Note : doit pouvoir être extrait de la page sans poser de problème, en clair ne pas y placer la navigation par exemple.
+    </aside>
 ```
 
 ``` HTML
-     <nav id="navigation" role="navigation"> : navigation principale
+     <nav id="navigation" role="navigation"> 
+          navigation principale
      </nav>
 ```
 
 ```HTML
-    <form id="search" role="search"> : recherche principale
+    <form id="search" role="search"> 
+         recherche principale
+    </form>
 ````
 
 > Pour l'accesibilité
@@ -62,13 +74,14 @@ utliser l'attibut [rôle](https://www.w3.org/TR/html-aria/#sec-strong-native-sem
 
 ```HTML
 <!-- Base pour l'accessibilité -->
-        <div class="skip-links">
-            <!-- N’utilisez surtout pas de propriétés CSS qui les rendent inactifs ou les attributs hidden et aria-hidden sinon plus visible pour les lecteurs d'écrans
-        -->
-            <a href="#navigation" tabindex="1">Aller au menu</a>
-            <a href="#main">Aller au contenu</a>
-            <a href="#search">Aller à la recherche</a>
-        </div>
+    <div class="skip-links">
+        <!-- N’utilisez surtout pas de propriétés CSS qui les rendent inactifs 
+        ou les attributs hidden et aria-hidden sinon plus visible pour les lecteurs 
+        d'écrans -->
+        <a href="#navigation" tabindex="1">Aller au menu</a>
+        <a href="#main">Aller au contenu</a>
+        <a href="#search">Aller à la recherche</a>
+    </div>
 ```
 
 ## CSS
