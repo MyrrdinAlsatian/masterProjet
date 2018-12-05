@@ -4,6 +4,7 @@
 
 ## Bonne pratique
 
+- Avant de :running: :ocean: :sweat_drops: :swimmer: dans le code.
 
 ## HTML
 
