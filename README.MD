@@ -42,14 +42,16 @@
 
 ``` HTML
      <footer id="footer" role="contentinfo">
-         pied de page global comportant des éléments qui se retrouvent en commun sur (quasiment) toutes les pages On peut trouver plusieurs balises footer, mais le role="contentinfo" doit être unique dans la page.
+         pied de page global comportant des éléments qui se retrouvent en commun sur (quasiment) toutes les pages On peut trouver plusieurs balises footer,
+         mais le role="contentinfo" doit être unique dans la page.
     </footer>
 ```
 
 ``` HTML
      <aside class="aside" role="complementary">
          barre latérale globale.
-          Note : doit pouvoir être extrait de la page sans poser de problème, en clair ne pas y placer la navigation par exemple.
+          Note : doit pouvoir être extrait de la page sans poser de problème,
+          en clair ne pas y placer la navigation par exemple.
     </aside>
 ```
 
