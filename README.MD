@@ -1,6 +1,6 @@
 # Template basic pour projet web lpmiaw 2018/2019
 
-> petit essai collaboratif
+> petit essai collaboratif car 1+1=3 à méditer
 
 ## Bonne pratique
 
