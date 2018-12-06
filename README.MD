@@ -110,9 +110,9 @@ utliser l'attibut [rôle](https://www.w3.org/TR/html-aria/#sec-strong-native-sem
 html {
     font-size: 62.5%;
     /*
-    HACK:
-    font-size par defaut est de 16px (dans la pluspart des navigateurs) donc si la taille par defaut(16px) * 62.5% = 10px,  donc 1rem  = 10px;
-    else si taille à été modifié permet de conserver les préférences de l'utilisateurs et changer l'apparence en conséquence
+    HACK: font-size par defaut est de 16px (dans la pluspart des navigateurs)
+    donc si la taille par defaut(16px) * 62.5% = 10px,  donc 1rem  = 10px;
+    sinon si taille à été modifié permet de conserver les préférences de l'utilisateurs et de changer l'apparence en conséquence
     */
 }
 ```
