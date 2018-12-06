@@ -44,8 +44,8 @@
 
 ``` HTML
      <footer id="footer" role="contentinfo">
-         pied de page global comportant des éléments qui se retrouvent en commun sur (quasiment) 
-         toutes les pages On peut trouver plusieurs balises footer,
+         pied de page global comportant des éléments qui se retrouvent en commun sur (quasiment) toutes les pages,
+         On peut trouver plusieurs balises footer,
          mais le role="contentinfo" doit être unique dans la page.
     </footer>
 ```
