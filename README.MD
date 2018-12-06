@@ -8,6 +8,8 @@
 
 - Etape 1:  :eyes: :computer: (regarder la maquette)  :scissors:  :pencil: (découper la maquette ).
 
+- En cas de doute vérifier sur [Can I Use](https://caniuse.com/#) et toujour vérifier sur el famoso [W3C Validator](https://validator.w3.org/nu/) si le document HTML est conforme.
+
 ## HTML
 
 ### Petite explication
@@ -19,7 +21,7 @@
 ```
 
 ``` HTML
-    <div class="inner"> 
+    <div class="inner">
         sous-conteneur optionnel à le meme rôle que le wrapper
     </div>
 ```
@@ -116,7 +118,6 @@ html {
 ```
 
 - Reset personnelle peut être remplacé par celui de [éric meyer](https://meyerweb.com/eric/tools/css/reset/)  ou  [Normalize.css](https://github.com/necolas/normalize.css/)
-
 
 ```CSS
 /* Reset */
