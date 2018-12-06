@@ -196,5 +196,6 @@ améliorer la fluidité des animations
 
 - [Guide ministériel pour des sites accesible](https://github.com/DISIC/guide-integrateur)
 - [Alsacréation : liste de site de références](https://github.com/alsacreations/guidelines/blob/master/Ressources-liens.md)
+- [Le blog du MMI](https://blogdummi.fr)
 
 ## Source
