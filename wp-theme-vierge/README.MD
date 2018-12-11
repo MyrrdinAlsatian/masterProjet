@@ -4,16 +4,16 @@
 
 ```Javascript
 MonTheme
-|-index.php
-|-front-page.php
-|-functions.php
-|-header.php
-|-footer.php
-|-screenshot.png
-|-style.css
+        |-index.php
+        |-front-page.php
+        |-functions.php
+        |-header.php
+        |-footer.php
+        |-screenshot.png
+        |-style.css
 ```
 
->Si tu n'a pas au moins ça :ocean: :volcano: :earth_americas: :fu: :boom: :bangbang: :skull: :koala: :end:
+>Si tu n'a pas au moins ça :ocean: :volcano: :earth_americas: :fu: :boom: :bangbang: :koala: :skull: :end:
 
 ***
 ## Alors pourquoi ? bonne question:
@@ -69,7 +69,7 @@ MonTheme
         screenshot.png
     </dt>
     <dd>
-        la vignette de ton theme    </dd>
+        La vignette de ton theme </dd>
 </dl>
 
 ***
@@ -78,8 +78,8 @@ MonTheme
         style.css
     </dt>
     <dd>
-Le fichier css sans css qui sert juste pour les crédit et ta pub (autheur,description, lien vers ton
-portfolio,..)
+        Le fichier css sans css qui sert juste pour les crédit et ta pub (autheur,description, lien vers ton
+        portfolio,..)
     </dd>
 </dl>
 
