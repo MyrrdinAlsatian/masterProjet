@@ -13,9 +13,10 @@ MonTheme
         |-style.css
 ```
 
->Si tu n'a pas au moins ça :ocean: :volcano: :earth_americas: :fu: :boom: :bangbang: :koala: :skull: :end:
+>Si tu n'a pas au moins ça :ocean: :volcano: :earth_americas: :fu: :boom: :bangbang: :koala: :skull: :end: (bon j'exagere un peu)
 
 ***
+
 ## Alors pourquoi ? bonne question:
 
 <dl>
