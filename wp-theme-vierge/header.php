@@ -14,8 +14,8 @@ l'ensemble des éléments communs à toute les pages typiquement le header et le
     <?php
 
  /*déclaration que ceci est le header et 
-        que si il doit y avoir des choses
-         qui doivent être inclue dans le header typiquement le css */
+        que si il doit y avoir des choses à inclure dans le header il fait ici par ecemple
+         le css */
     wp_head();
 
 ?>
