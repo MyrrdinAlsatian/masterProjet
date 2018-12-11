@@ -47,8 +47,6 @@ get_header(); // recupération du fichier header.php
          ?>
                 </div>
                 <div class="detais">
-                    <?= custome_the_category() ?>
-
                         <!-- <li><?php // the_category(null,'')?></li> -->
                         
                         <!-- Sa ca sert a récupérer les catégorie  -->
