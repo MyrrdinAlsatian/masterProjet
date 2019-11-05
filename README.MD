@@ -1,6 +1,6 @@
 # Template basic pour projet web lpmiaw 2018/2019
 
-> petit essai collaboratif car 1+1=3 à méditer
+> Petit essai collaboratif car 1+1=3 à méditer
 
 ## Bonne pratique
 
@@ -8,7 +8,7 @@
 
 - Etape 1:  :eyes: :computer: (regarder la maquette)  :scissors:  :pencil: (découper la maquette ).
 
-- En cas de doute vérifier sur [Can I Use](https://caniuse.com/#) et toujour vérifier sur el famoso [W3C Validator](https://validator.w3.org/nu/) si le document HTML est conforme.
+- En cas de doute vérifier sur [Can I Use](https://caniuse.com/#) et toujours vérifier sur el famoso [W3C Validator](https://validator.w3.org/nu/) si le document HTML est conforme.
 
 ## HTML
 
@@ -16,19 +16,19 @@
 
 ``` HTML
     <div id="wrapper">
-        sous-conteneur optionnel pour centrer plusieurs blocs de la même manière
+        Sous-conteneur optionnel pour centrer plusieurs blocs de la même manière
     </div>
 ```
 
 ``` HTML
     <div class="inner">
-        sous-conteneur optionnel à le meme rôle que le wrapper
+        Sous-conteneur optionnel à le même rôle que le wrapper
     </div>
 ```
 
 ``` HTML
     <main id="main" role="main">
-        conteneur général du contenu principal, typiquement ce qui n'est pas dans le
+        Conteneur général du contenu principal, typiquement ce qui n'est pas dans le
         header et le footer
     </main>
 ```
@@ -52,7 +52,7 @@
 
 ``` HTML
      <aside class="aside" role="complementary">
-         barre latérale globale.
+         Barre latérale globale.
           Note : doit pouvoir être extrait de la page sans poser de problème,
           en clair ne pas y placer la navigation par exemple.
     </aside>
@@ -60,23 +60,23 @@
 
 ``` HTML
      <nav id="navigation" role="navigation">
-          navigation principale
+          Navigation principale
      </nav>
 ```
 
 ```HTML
     <form id="search" role="search">
-         recherche principale
+         Recherche principale
     </form>
 ````
 
-> Pour l'accesibilité
+> Pour l'accessibilité
 
 utliser l'attibut [rôle](https://www.w3.org/TR/html-aria/#sec-strong-native-semantics)
 
 ```HTML
     <div role ="" >
-        Choucroute, bière, knack, picon, ...
+        Choucroute, bière, knack, Picon, ...
     </div>
 ```
 
@@ -101,7 +101,7 @@ utliser l'attibut [rôle](https://www.w3.org/TR/html-aria/#sec-strong-native-sem
     /* pour un wrapper de 980px */
     max-width: 960px;
 
-    /* ajout d'un padding pour eviter que les blocs soit collé */
+    /* ajout d'un padding pour éviter que les blocs soit collé */
     padding-right: 10px;
     padding-left: 10px;
 }
@@ -112,13 +112,13 @@ html {
     font-size: 62.5%;
     /*
     HACK: font-size par defaut est de 16px (dans la majorité des navigateurs)
-    donc si la taille par defaut(16px) * 62.5% = 10px,  donc 1rem  = 10px;
-    sinon si taille à été modifié permet de conserver les préférences de l'utilisateurs et de changer l'apparence en conséquence
+    donc si la taille par défaut(16px) * 62.5% = 10px,  donc 1rem  = 10px;
+    sinon si taille à été modifié permet de conserver les préférences de l'utilisateur et de changer l'apparence en conséquence
     */
 }
 ```
 
-- Reset personnelle peut être remplacé par celui de [éric meyer](https://meyerweb.com/eric/tools/css/reset/)  ou  [Normalize.css](https://github.com/necolas/normalize.css/)
+- Reset personnelle peut être remplacé par celui d'[éric Meyer](https://meyerweb.com/eric/tools/css/reset/)  ou  [Normalize.css](https://github.com/necolas/normalize.css/)
 
 ```CSS
 /* Reset */
@@ -147,7 +147,7 @@ table {
 
 >Petit truc
 
-permet de mieux visualiser les blocs
+Permet de mieux visualiser les blocs
 
 ```CSS
 *{
@@ -156,7 +156,7 @@ permet de mieux visualiser les blocs
 
 ```
 
-améliorer la fluidité des animations
+Améliorer la fluidité des animations
 
 ```CSS
 .animation{
@@ -171,7 +171,7 @@ améliorer la fluidité des animations
 }
 ```
 
-> Pour l'accesibilité
+> Pour l'accessibilité
 
 ```CSS
 .skip-links {
@@ -192,10 +192,10 @@ améliorer la fluidité des animations
 }
 ```
 
-## liens utiles
+## Liens utiles
 
-- [Guide ministériel pour des sites accesible](https://github.com/DISIC/guide-integrateur)
-- [Alsacréation : liste de site de références](https://github.com/alsacreations/guidelines/blob/master/Ressources-liens.md)
+- [Guide ministériel pour des sites accessible](https://github.com/DISIC/guide-integrateur)
+- [Alsacréation : liste de sites de références](https://github.com/alsacreations/guidelines/blob/master/Ressources-liens.md)
 - [Le blog du MMI](https://blogdummi.fr)
 
 ## Source
